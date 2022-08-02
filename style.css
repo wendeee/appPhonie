@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    width: 400px;
+    max-width: 100%;
+    
+    
+}
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    color: greenyellow;
+}
+.container{
+    display: flex;
+    width: 100%;
+    border: 1px solid greenyellow;
+   
+    
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid greenyellow;
+    border-style: none;
+    border-right: 1px solid greenyellow;
+    cursor: pointer;
+   
+    
+}
+.telNumber{
+    flex: 5;
+   border-radius: 10px;
+}
+.logo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-radius: 10px;
+}
+.logoSymbol{
+    width: 100%;
+   font-size: 2rem;
+   text-align: center;
+   margin-top: 5px;
+   cursor: pointer;
+   
+    
+    
+}
+
+img{
+    width: 50%;
+    max-width: 100%;
+}
